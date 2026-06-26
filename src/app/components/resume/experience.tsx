@@ -28,7 +28,6 @@ export default function ExperienceComponent() {
                 <li>Created an automated test implementation process, ensuring adherence to deadlines and delivery timelines.</li>
             </ul>
             <h3>UI Developer - Accessibility Specialist</h3>
-            <h3>UI Developer - Accessibility Specialist</h3>
             <small>
                 <span>DBC Company - Consulting for Edenred - Porto Alegre/RS</span>
                 <time>May 2019 - October 2021</time>
@@ -40,7 +39,6 @@ export default function ExperienceComponent() {
                 <li>Achieved proficiency in NGXS/NgRx for data and state, RxJS for reactive programming, and modern styling tools like SASS/SCSS, Flexbox, Animations, continuous integration, and automated testing tools.</li>
                 <li>Worked with the latest technologies for optimal quality and standards, on a B2B platform within the financial sector.</li>
             </ul>
-            <h3>Product Designer & UI Developer</h3>
             <h3>Product Designer & UI Developer</h3>
             <small>
                 <span>Agenciou! StartUp - Porto Alegre/RS</span>
