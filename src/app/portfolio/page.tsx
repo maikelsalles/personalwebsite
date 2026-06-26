@@ -1,12 +1,12 @@
 import { Metadata } from "next"
 import styles from "./portfolio.module.scss"
+import globals from "../globals.module.scss"
 import Image from 'next/image'
-import Button from "../components/button"
 
-import img1 from "@img/portfolio/design-system-engineer-thumbnail.png";
-import img2 from "@img/portfolio/head-of-product-design-thumbnail.png";
-import img3 from "@img/portfolio/medical-platform-thumbnail.png";
-import img4 from "@img/portfolio/personal-website-thumbnail.png";
+import img1 from "@img/portfolio/Design_System_Engineer.jpg";
+import img2 from "@img/portfolio/Head_of_Product_Design.jpg";
+import img3 from "@img/portfolio/Medical_Platform.jpg";
+import img4 from "@img/portfolio/Personal_Website.jpg";
 
 export const metadata: Metadata = {
     title: "Portfolio - Maikel Salles",
@@ -15,50 +15,71 @@ export const metadata: Metadata = {
 
 export default function Portfolio() {
     return (
-        <article className={styles.portfolioContainer}>
-            <div className={styles.titleContainer}>
-                <h1>Portfolio</h1>
+        <section id="portfolio" className={`${styles.resumeContainer} ${globals.wrapper} ${globals.sectionPadding} ${globals.twoCollumns} ${globals.coloredGradient}`}>
+            <div className={`${globals.stickyIt} ${styles.whiteTxt}`}>
+                <h2>Portfolio</h2>
+                <p>
+                Explore my latest projects, where design meets functionality. From crafting intuitive Design Systems to delivering impactful UI, UX, and Product Design solutions, these works highlight my passion for innovation and user-centered design.
+                </p>
             </div>
-            <section>
-                <h2>Design System</h2>
-                <picture>
+            <div className={styles.portfolioList}>
+                <div className={styles.portfolioItem}>
+                <a href={`${process.env.NEXT_PUBLIC_SITE_URL}/portfolio/design-system-engineer`}>
+                    <h3>Design System Engineer</h3>
+                    <picture>
                     <source srcSet={img1.src} />
-                        <a href="portfolio/design-system" rel="nofollow" title="View Details">
-                            <Image src={img1} alt="A set of images of print screens from the project." />
-                        </a>
-                </picture>
-                <Button href="portfolio/design-system" icon="long-arrow-alt-right" label="View details"/>
-            </section>
-            <section>
-                <h2>Product Design</h2>
-                <picture>
+                    <Image
+                        src={img1}
+                        alt="This is my photograph. I have a bald head, green eyes, and Caucasian ethnicity. I'm wearing a dark purple shirt paired with a navy blue blazer. I`m with a calm expression."
+                        width={768}
+                        height={420}
+                    />
+                    </picture>
+                </a>
+                </div>
+                <div className={styles.portfolioItem}>
+                <a href={`${process.env.NEXT_PUBLIC_SITE_URL}/portfolio/head-of-product-design`}>
+                    <h3>Head of Product Design</h3>
+                    <picture>
                     <source srcSet={img2.src} />
-                    <a href="portfolio/product-design" rel="nofollow" title="View Details">
-                        <Image src={img2} alt="A set of images of print screens from the project." />
-                    </a>
-                </picture>
-                <Button href="portfolio/product-design" icon="long-arrow-alt-right" label="View details"/>
-            </section>
-            <section>
-                <h2>Medical Platform</h2>
-                <picture>
+                    <Image
+                        src={img2}
+                        alt="This is my photograph. I have a bald head, green eyes, and Caucasian ethnicity. I'm wearing a dark purple shirt paired with a navy blue blazer. I`m with a calm expression."
+                        width={768}
+                        height={420}
+                    />
+                    </picture>
+                </a>
+                </div>
+                <div className={styles.portfolioItem}>
+                <a href={`${process.env.NEXT_PUBLIC_SITE_URL}/portfolio/ux-ui-medical-platform`}>
+                    <h3>UX/UI Medical Platform</h3>
+                    <picture>
                     <source srcSet={img3.src} />
-                    <a href="portfolio/medical-platform" rel="nofollow" title="View Details">
-                        <Image src={img3} alt="A set of images of print screens from the project." />
-                    </a>
-                </picture>
-                <Button href="portfolio/medical-platform" icon="long-arrow-alt-right" label="View details"/>
-            </section>
-            <section>
-                <h2>Personal Website</h2>
-                <picture>
+                    <Image
+                        src={img3}
+                        alt="This is my photograph. I have a bald head, green eyes, and Caucasian ethnicity. I'm wearing a dark purple shirt paired with a navy blue blazer. I`m with a calm expression."
+                        width={768}
+                        height={420}
+                    />
+                    </picture>
+                </a>
+                </div>
+                <div className={styles.portfolioItem}>
+                <a href={`${process.env.NEXT_PUBLIC_SITE_URL}/portfolio/personal-website`}>
+                    <h3>Personal Website</h3>
+                    <picture>
                     <source srcSet={img4.src} />
-                    <a href="portfolio/personal-website" rel="nofollow" title="View Details">
-                        <Image src={img4} alt="A set of images of print screens from the project." />
-                    </a>
-                </picture>
-                <Button href="portfolio/personal-website" icon="long-arrow-alt-right" label="View details"/>
-            </section>
-        </article>
+                    <Image
+                        src={img4}
+                        alt="This is my photograph. I have a bald head, green eyes, and Caucasian ethnicity. I'm wearing a dark purple shirt paired with a navy blue blazer. I`m with a calm expression."
+                        width={768}
+                        height={420}
+                    />
+                    </picture>
+                </a>
+                </div>
+            </div>
+        </section>
     )
 }

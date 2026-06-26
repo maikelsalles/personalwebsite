@@ -1,21 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+import styles from "./resume.module.scss"
+
 export default function ExperienceComponent() {
     return (
-        <section id="experience">
-            <h2>Experience</h2>
-            <h3>Volunteer Product Designer</h3>
-            <small>
-                <span>Sanmyaku Entertainment - Calgary AB</span>
-                <time>November 2023 - June 2024</time>
-            </small>
-            <ul>
-                <li>Directed Product Design initiatives for an innovative Healthcare platform startup, collaborating with international teams, conducting presentations, implementing tests, and crafting a design system.</li>
-                <li>Defined scope and requirements for innovative solutions through strategic application of design thinking.</li>
-            </ul>
-            <h3>Product Designer - Design System</h3>
+        <section className={styles.experienceItem} id="experience">
+            <h3>Design System Engineer</h3>
             <small>
                 <span>DBC Company - Consulting for Edenred - Porto Alegre/RS</span>
-                <time>July 2022 - Present</time>
+                <time>July 2022 - November 2024</time>
             </small>
             <ul>
                 <li>Ahead of Design System project, lead the development in Figma and Angular Library of components, defining standards, guidelines and documentation within IT Engineers and Design department.</li>

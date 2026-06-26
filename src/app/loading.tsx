@@ -1,3 +1,5 @@
+import globals from './globals.module.scss';
+
 export default function Loading() {
-    return <div><strong>Loading...</strong></div>
+    return <div className={globals.loading}><strong>Loading...</strong></div>
 }

@@ -1,15 +1,8 @@
-@import "../mixins";
+@import "../../mixins";
 
 .contactContainer {
-    display: flex;
-    gap: 2em;
-    flex: 0 70% 30%;
-    align-items: center;
-    flex-direction: column;
-    section {
-        @extend .filledBox;
-        padding: 2em;
-    }
+    align-items: flex-start;
+    background-color: var(--foreground-alpha-10);
     form {
         display: flex;
         width: 100%;
@@ -26,12 +19,11 @@
 }
 .aside {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-wrap: no-wrap;
+    flex-direction: column;
     gap: 1em;
-    align-items: center;
-    justify-content: center;
-    h2 {
+    align-items: flex-start;
+    h3 {
         width: 100%;
         justify-content: center;
     }
@@ -39,12 +31,9 @@
 @include for-tablet-landscape-up {
     .contactContainer {
         flex-direction: row;
-        section {
-            padding: 2rem 4rem;
-        }
+        align-items: center;
     }
     .aside {
-        width: 30%;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;

@@ -40,7 +40,6 @@ const stack = {
 export default function Stack() {
     return (
         <section className={styles.skillsContainer} id="stack">
-            <h2>{ stack.title }</h2>
             {stack.cats.map((cat) => (
                 <div key={cat.title}>
                     <h3>{cat.title}</h3>

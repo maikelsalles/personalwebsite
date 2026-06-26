@@ -1,19 +1,26 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Metadata } from 'next'
 import styles from './about.module.scss'
+import globals from '../../globals.module.scss'
 import Image from 'next/image'
 import FotoH from '@img/maikel-salles-h.jpg'
 import FotoW from '@img/maikel-salles-w.jpg'
-export const metadata: Metadata = {
-  title: 'About Maikel Salles',
-  description: 'Read about my career and story.',
-}
 
-export default function About() {
+export default function AboutComponent() {
   return (
-    <article className={styles.article}>
-      <div className={styles.textContent}>
-        <h1>About me</h1>
+    <article className={`${styles.article} ${globals.wrapper} ${globals.sectionPadding} ${globals.twoCollumns} ${globals.waveGgradient}`}>
+      <div className={`${styles.frontPic} ${globals.stickyIt}`}>
+        <picture>
+          <source srcSet={FotoH.src} media="(min-width: 600px)" />
+          <Image
+            src={FotoW}
+            width={380}
+            height={576}
+            alt="A picture of me at my graduation. I'm wearing a navy blue blazer and a dark purple shirt. In the background, there's a light blue panel with some bright lights. I'm smiling, sporting a short beard, and I'm bald."
+          />
+        </picture>
+      </div>
+      <div className={`${styles.textContent} ${styles.imageContainer}`}>
+        <h2>About me</h2>
         <blockquote>
           A skilled Designer and Developer with experience in the enterprise industry, I'm a Brazilian living in Calgary AB, since August 2023, and currently seeking new challenging opportunities in the Canadian tech industry.
         </blockquote>
@@ -31,18 +38,7 @@ export default function About() {
         </p>
         <p>
           I'm confident that my skills and experience make me a great asset to any team, and I'm always looking for new opportunities to learn, grow, and exchange knowledge.
-        </p>
-      </div>
-      <div className={styles.imageContainer}>
-        <picture>
-          <source srcSet={FotoH.src} media="(min-width: 900px)" />
-          <Image
-            src={FotoW}
-            width={380}
-            height={576}
-            alt="A picture of me at my graduation. I'm wearing a navy blue blazer and a dark purple shirt. In the background, there's a light blue panel with some bright lights. I'm smiling, sporting a short beard, and I'm bald."
-          />
-        </picture>  
+        </p>  
       </div>
     </article>
   )

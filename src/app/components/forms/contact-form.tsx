@@ -19,7 +19,7 @@ export default function ContactForm() {
     if (state.succeeded) {
         return (
             <div className={styles.feedbackMessage}>
-                <h1>Great!</h1>
+                <h2>Great!</h2>
                 <p>
                     Can't wait to hear what you have to say. I'll make sure to get back to you real soon. Have an amazing day!<br/>
                 </p>
@@ -33,7 +33,7 @@ export default function ContactForm() {
     }
     return (
         <>
-            <h1>Contact me</h1>
+            <h2>Contact me</h2>
             <form onSubmit={handleSubmit}>
                 <ValidationError 
                     prefix="Name" 
@@ -53,25 +53,25 @@ export default function ContactForm() {
                     errors={state.errors}
                 />
                 <div className={`${input.inputContainer} ${globals.w50}`}>
-                <PhoneInput
-                    country={"ca"}
-                    inputProps={{
-                        name: "phone",
-                        required: false,
-                        autoFocus: false
-                    }}
-                    inputStyle={{
-                        background: "transparent",
-                        border: "1px solid var(--foreground-alpha-70);",
-                        borderRadius: "8px",
-                        width: "100%",
-                        paddingTop: "0.5em",
-                        paddingBottom: "0.5em",
-                        lineHeight: "1.30rem",
-                        height: "auto"
-                    }}
-                    dropdownClass={styles.customDropdown}
-                />
+                    <PhoneInput
+                        country={"ca"}
+                        inputProps={{
+                            name: "phone",
+                            required: false,
+                            autoFocus: false
+                        }}
+                        inputStyle={{
+                            background: "transparent",
+                            border: "1px solid var(--foreground-alpha-70);",
+                            borderRadius: "8px",
+                            width: "100%",
+                            paddingTop: "0.5em",
+                            paddingBottom: "0.5em",
+                            lineHeight: "1.30rem",
+                            height: "auto"
+                        }}
+                        dropdownClass={styles.customDropdown}
+                    />
                 </div>
                 <ValidationError 
                     prefix="Phone" 

@@ -2,40 +2,77 @@
 
 .footer {
     padding-bottom: 4rem;
-    height: 11rem;
-    align-items: flex-end;
-    justify-content: flex-start;
+    padding-top: 4rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
     display: flex;
-    text-align: center;
+    text-align: left;
+    gap: 4rem;
+    overflow: hidden;
+    position: relative;
+    &:before{
+        background-image: url("../../../../public/img/maikel-salles-logo-light.svg");
+        background-size: cover;
+        background-position: center right;
+        content: " ";
+        transform: rotate(-24deg);
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        right: 0;
+        bottom: 0;
+    }
     * {
         position: relative;
-    }
-    &:before {
-        width: 100vw;
-        height: 15vh;
-        z-index: 2;
-        left: 0;
-        bottom: 0;
-        position: fixed;
-        content: " ";
-        background: var(--linear-gradient);
     }
     a {
         color: inherit;
         display: inline-block;
         z-index: 2;
     }
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        list-style: none;
+        margin: 2rem 0 0 0;
+        padding: 0;
+        position: relative;
+        z-index: 2;
+        li {
+            display: inline-block;
+            position: relative;
+            a {
+                color: inherit;
+                display: inline-block;
+                text-decoration: none;
+                padding: 0.5rem 0;
+                position: relative;
+                z-index: 2;
+                font-size: small;
+                &:hover {
+                    color: var(--primary);
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
 }
 
 @include for-tablet-landscape-up {
     .footer {
         padding-bottom: 3rem;
+        flex-direction: row;
+        align-items: flex-end;
     }
 }
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     .footer{
         &:before {
-            display: none;
+            background-image: url("../../../../public/img/maikel-salles-logo-dark.svg"); 
         }
     }
 }

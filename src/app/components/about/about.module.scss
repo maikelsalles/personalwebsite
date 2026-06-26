@@ -1,0 +1,59 @@
+@import "../../mixins";
+
+.article {
+  .textContent {
+    padding: 2rem 0;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}
+.frontPic {
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: var(--shadow-large);
+    object-fit: cover;
+    object-position: 100% 0;
+    border-radius: 16px;
+  }
+}
+@include for-tablet-landscape-up {
+  .frontPic{
+    display: block;
+  }
+  .article {
+    .textContent {
+      padding: 0;
+      width: 100%;
+    }
+    .imageContainer {
+      margin: 4rem auto;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: var(--border-radius-large);
+        box-shadow: var(--shadow-large);
+      }
+    }
+  }
+  .button{
+    margin-right: 0;
+  }
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+
+}
+
+@media (prefers-reduced-motion) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  
+}
+

@@ -13,6 +13,15 @@
 @mixin for-big-desktop-up {
     @media (min-width: 1800px) { @content; }
 }
+@mixin for-2k-up {
+    @media (min-width: 2560px) { @content; }
+}
+@mixin for-4k-up {
+    @media (min-width: 3840px) { @content; }
+}
+@mixin for-8k-up {
+    @media (min-width: 7680px) { @content; }
+}
 
 
 .titleDecoration {
