@@ -19,6 +19,7 @@ export default function Resume() {
     return (
         <article className={`${globals.wrapper} ${globals.sectionPadding} ${styles.resumeContainer}`}>
             <div className={styles.titleContainer}>
+                <span className={styles.breadcrumbs}><a href="/portfolio" title="Back to Portfolio" rel="nofollow noindex">Portfolio</a></span>
                 <h1>Head of Product Design</h1>
             </div>
             <section id="personal-website" className={styles.caseContainer}>
