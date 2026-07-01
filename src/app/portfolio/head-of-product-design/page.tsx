@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Metadata } from "next"
 import styles from "../portfolio.module.scss"
+import globals from "../../globals.module.scss"
 import Image from 'next/image'
 import Button from "@/app/components/button";
 
@@ -16,9 +17,9 @@ export const metadata: Metadata = {
 
 export default function Resume() {
     return (
-        <article className={styles.resumeContainer}>
+        <article className={`${globals.wrapper} ${globals.sectionPadding} ${styles.resumeContainer}`}>
             <div className={styles.titleContainer}>
-                <h1>Product Design</h1>
+                <h1>Head of Product Design</h1>
             </div>
             <section id="personal-website" className={styles.caseContainer}>
                 <div>
