@@ -8,6 +8,11 @@
     flex-direction: column;
     text-align: left;
   }
+  ul{
+    li{
+      padding: 0.5rem 0;
+    }
+  }
 }
 .frontPic {
   img {
@@ -18,6 +23,39 @@
     object-fit: cover;
     object-position: 100% 0;
     border-radius: 16px;
+  }
+}
+.section{
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  .card {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: var(--border-radius-small);
+    box-shadow: var(--shadow-large);
+    background-color: rgba(var(--white), 1);
+    text-align: center;
+    color: rgba(var(--black), 1);
+    span {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      display: block;
+      font-size: var(--font-size-4);
+      strong {
+        display: block;
+        font-size: var(--font-size-3);
+        color: var(--primary-dark);
+        margin: 1rem;
+      }
+    }
   }
 }
 @include for-tablet-landscape-up {
