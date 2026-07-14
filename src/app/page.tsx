@@ -27,9 +27,9 @@ export default function Home() {
       <section className={`${styles.featuredSection} ${globals.wrapper}`}>
         <h1>Maikel Salles</h1>
         <p>
-          <strong>Product Designer | Front End Developer | Accessibility Specialist</strong><br/>
-          Harmonizing design and code for elegant and inclusive experiences,
-          where user needs are the cornerstone.
+          <strong>Product Designer & Design Systems Specialist bridging Design, Product, and Engineering.</strong><br/>
+          I help teams turn complex product requirements into clear, accessible, and scalable digital experiences through UX strategy, component-based design, front-end collaboration, and practical documentation.
+
         </p>
         <picture className={styles.frontPic}>
             <source srcSet={frontPage.src} />
