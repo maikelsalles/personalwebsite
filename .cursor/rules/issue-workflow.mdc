@@ -1,0 +1,40 @@
+---
+description: Issue workflow, planning vs implementation, and approval gate
+alwaysApply: true
+---
+
+# Issue Workflow
+
+Follow `docs/development-workflow.md` and `docs/ai-collaboration-guide.md`.
+
+## Required sequence
+
+1. Read the current GitHub Issue
+2. Read the parent issue
+3. Read all referenced documentation
+4. Inspect the repository
+5. Identify affected files, dependencies, risks, and assumptions
+6. Produce an implementation plan using `docs/templates/implementation-plan-template.md`
+7. **Wait for approval** — do not edit files
+8. Implement only the approved scope
+9. Run relevant validation
+10. Produce a delivery report
+11. Prepare a focused commit (when requested)
+12. Open or prepare a Pull Request referencing the issue
+
+## Approval gate
+
+- Default: plan first; no file changes until the plan is approved
+- "Read-only planning mode" = steps 1–6 only
+- Direct implementation is allowed only when:
+  - The issue explicitly permits it, or
+  - The user approves the plan in the same conversation, or
+  - The scope is narrow, fully specified, and documentation-only
+
+When in doubt, plan first and wait for approval.
+
+## Issue drafting
+
+When proposing new issues, follow `docs/templates/github-issue-template.md`.
+
+Record significant workflow or architecture decisions in `docs/decision-log.md`.

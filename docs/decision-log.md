@@ -121,6 +121,26 @@ Do not duplicate verified professional facts from [professional-profile.md](./pr
 
 ---
 
+### DEC-006 — Cursor workspace configuration
+
+| Field | Value |
+|-------|-------|
+| Date | 2026-07-25 |
+| Status | Accepted |
+| Related | Issue #57 — Configure Cursor Workspace |
+
+**Context:** Issue #56 created repository documentation, but Cursor had no project-level rules to enforce workflow, scope, and factual accuracy automatically.
+
+**Decision:** Configure `.cursor/rules/` with focused rule files that reference `docs/` instead of duplicating content. Add `AGENTS.md` as the repository entry point and `.cursorignore` for build artifacts.
+
+**Alternatives considered:** Single monolithic rule file; legacy `.cursorrules`; embedding full workflow in rules.
+
+**Reason:** Focused rules remain maintainable; documentation stays the canonical source; agents get a clear entry point without repeated prompts.
+
+**Impact:** Eight rules cover context, workflow, scope, validation, git, professional content, documentation, and Next.js code. Website and production code are unchanged.
+
+---
+
 ## Document Status
 
 | Field | Value |

@@ -1,0 +1,33 @@
+---
+description: Markdown documentation conventions for docs/
+globs: docs/**/*.md
+alwaysApply: false
+---
+
+# Documentation Conventions
+
+Follow `docs/project-brief.md` writing principles.
+
+## Structure
+
+- One primary purpose per document; cross-reference instead of duplicating
+- Use clear headings, tables, and checklists where helpful
+- Include a Document Status section for core docs when updating them
+
+## Content rules
+
+- Professional facts belong in `docs/professional-profile.md` only
+- Narrative and tone belong in `docs/personal-brand.md`
+- Website requirements belong in `docs/website-specification.md`
+- Do not embed employment history in workflow or AI guide documents
+
+## Links
+
+- Use relative paths between docs (e.g., `./professional-profile.md`)
+- Verify internal links resolve after creating or renaming files
+- Reference templates in `docs/templates/` for audits, plans, and issues
+
+## Templates
+
+- Use placeholders (`[PLACEHOLDER]`) — never fabricated audit findings or professional claims
+- Remove instruction blocks when converting a template to a completed document
