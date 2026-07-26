@@ -3,12 +3,12 @@ import { Metadata } from "next"
 import styles from "../portfolio.module.scss"
 import globals from "../../globals.module.scss"
 import Image from 'next/image'
-import Button from "@/app/components/button";
+import Button from "@/app/components/button"
 
-import icons from "../../icons.module.scss";
+import icons from "../../icons.module.scss"
 
-import img1 from "@img/portfolio/head-of-product-design-test-system.jpg";
-import img2 from "@img/portfolio/head-of-product-design-design-system.jpg";
+import img1 from "@img/portfolio/head-of-product-design-test-system.jpg"
+import img2 from "@img/portfolio/head-of-product-design-design-system.jpg"
 
 export const metadata: Metadata = {
     title: "Design System Engineer - Portfolio - Maikel Salles",
@@ -25,7 +25,7 @@ export default function Resume() {
             <section id="personal-website" className={styles.caseContainer}>
                 <div>
                     <p>
-                        As the Product Designer at DBC Company consulting for Ticket Log by Edenred, I faced the challenge of ensuring a unified and seamless experience across our digital products in terms of design and user experience. I proposed a new design process and initiated a Design System project, which proved to be the most intricate yet time-saving transformation the company has ever undertaken.
+                        As the Head of Product Designer at DBC Company consulting for Ticket Log by Edenred, I faced the challenge of ensuring a unified and seamless experience across our digital products in terms of design and user experience. I proposed a new design process and initiated a Design System project, which proved to be the most intricate yet time-saving transformation the company has ever undertaken.
                     </p>
                     <p>
                         Recognizing the need for leadership to streamline internal processes and reduce excessive revisions in prototype development, so I volunteered to lead the design team. At the time, with only four designers reporting directly to product owners and minimal communication among them, I saw the opportunity to establish clearer channels of communication, standardize processes, and enhance the efficiency and quality of our design outputs.

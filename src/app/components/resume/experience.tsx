@@ -15,7 +15,7 @@ export default function ExperienceComponent() {
                 <li>Served as a bridged between Design and Development allways fostering accessibility and best practices.</li>
                 <li>Led the efforts to uphold legacy designs by analyzing new brand standards alongside existing legacy code, ensuring seamless integration and consistency across platforms.</li>
             </ul>
-            <h3>Head of Product Design</h3>
+            <h3>Product Design</h3>
             <small>
                 <span>DBC Company - Consulting for Edenred - Porto Alegre/RS</span>
                 <time>October 2021 - July 2022</time>
