@@ -521,18 +521,21 @@ When this profile is used to create website, portfolio, resume, LinkedIn, or app
 
 ## Source-of-Truth Hierarchy
 
-When professional information conflicts, use this order:
+When information conflicts, use this order:
 
 1. Latest approved resume
 2. `docs/professional-profile.md`
-3. Verified portfolio case-study documentation
+3. `docs/project-brief.md`
 4. `docs/personal-brand.md`
-5. Website content
-6. Other generated professional materials
+5. `docs/website-specification.md`
+6. `docs/development-workflow.md`
+7. `docs/ai-collaboration-guide.md`
+8. Current GitHub Issue
+9. Parent Issue
 
-The latest approved resume remains the final factual authority for employment history, dates, education, certificates, and verified achievements.
+For professional facts specifically, the latest approved resume remains the final authority for employment history, dates, education, certificates, and verified achievements. Verified portfolio case-study documentation may supplement the profile when approved and traceable to it. Website content and other generated materials rank below the documents above.
 
-This document is the working source of truth for creating and maintaining professional content inside the repository.
+See also: [project-brief.md](./project-brief.md), [personal-brand.md](./personal-brand.md), [website-specification.md](./website-specification.md).
 
 ---
 
