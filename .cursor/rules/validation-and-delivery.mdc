@@ -1,0 +1,33 @@
+---
+description: Validation checks and delivery report requirements
+alwaysApply: true
+---
+
+# Validation and Delivery
+
+Follow `docs/development-workflow.md` for the full validation table and delivery report format.
+
+## Validation by change type
+
+| Change type | Required checks |
+|-------------|-------------------|
+| Code (`src/**`) | `npm run lint`, `npm run build` |
+| Documentation (`docs/**`) | Markdown formatting, internal links resolve |
+| Professional content | Compare against `docs/professional-profile.md` |
+| All issues | Confirm no out-of-scope files changed |
+
+For code changes, note responsive, accessibility, SEO, and performance impact when relevant. Fix only if in scope.
+
+## Delivery report
+
+After implementation, provide:
+
+- Issue reference and branch name
+- Summary of changes
+- Files created, modified, or deleted
+- Validation results
+- Important decisions, assumptions, and risks
+- Out-of-scope items deferred to future issues
+- Recommended next issue (when applicable)
+
+Do not commit or push unless explicitly requested.

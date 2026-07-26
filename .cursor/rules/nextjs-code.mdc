@@ -1,0 +1,33 @@
+---
+description: Next.js and React coding conventions for src/
+globs: src/**/*.{ts,tsx,scss}
+alwaysApply: false
+---
+
+# Next.js Code Conventions
+
+Follow `docs/project-brief.md` technical principles. Match existing patterns before introducing new ones.
+
+## Stack
+
+- Next.js App Router (`src/app/`)
+- TypeScript, React functional components
+- SCSS modules colocated with components (`*.module.scss`)
+- Path aliases: `@/app/`, `@components/`, `@img/`
+
+## Implementation rules
+
+- Prefer the smallest correct diff
+- Reuse existing components (`button`, `spacer`, `input`, etc.)
+- Preserve current visual identity unless the issue specifies redesign
+- Preserve accessibility, responsiveness, and SEO unless the issue targets changes
+- Avoid unnecessary dependencies
+- Do not refactor unrelated code
+
+## Content in components
+
+Website copy must align with `docs/professional-profile.md` and `docs/personal-brand.md`. See `docs/website-specification.md` for required corrections.
+
+## Validation
+
+Run `npm run lint` and `npm run build` before delivery when code changes are in scope.

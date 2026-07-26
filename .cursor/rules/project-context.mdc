@@ -1,0 +1,40 @@
+---
+description: Project context, documentation index, and source-of-truth hierarchy
+alwaysApply: true
+---
+
+# Personal Website — Project Context
+
+Read the current GitHub Issue, parent issue, and relevant docs in `docs/` before any work.
+
+## Documentation index
+
+| Need | Document |
+|------|----------|
+| Verified professional facts | `docs/professional-profile.md` |
+| Narrative and tone | `docs/personal-brand.md` |
+| Project vision and principles | `docs/project-brief.md` |
+| Website requirements | `docs/website-specification.md` |
+| Issue lifecycle | `docs/development-workflow.md` |
+| AI collaboration rules | `docs/ai-collaboration-guide.md` |
+| Project decisions | `docs/decision-log.md` |
+
+## Source-of-truth hierarchy
+
+When information conflicts, use this order:
+
+1. Latest approved resume
+2. `docs/professional-profile.md`
+3. `docs/project-brief.md`
+4. `docs/personal-brand.md`
+5. `docs/website-specification.md`
+6. `docs/development-workflow.md`
+7. `docs/ai-collaboration-guide.md`
+8. Current GitHub Issue
+9. Parent Issue
+
+Professional facts always defer to the resume and `docs/professional-profile.md`.
+
+Never treat live website content (`src/app/**`) as authoritative when it conflicts with the profile. Flag discrepancies and follow the profile.
+
+Never invent, exaggerate, or add unsupported professional information.
