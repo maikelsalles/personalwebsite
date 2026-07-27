@@ -34,7 +34,7 @@ export default function ExperienceComponent() {
                 <li>Partnered with Product and Engineering to simplify complex payment and fleet-management workflows and improve collaboration between Figma and Angular libraries.</li>
                 <li>Reduced design and development time by 30% through improved Design System collaboration and reusable patterns.</li>
             </ul>
-            <h3>Head of Product Design</h3>
+            <h3>Product Design</h3>
             <small>
                 <span>DBC Consulting — Ticket Log / Edenred — Fleet Management and Payments · Brazil</span>
                 <time>2021–2022</time> 

@@ -21,6 +21,11 @@ export default function EducationComponent() {
                         <time>2019–2022</time>
                     </small>
                 </p>
+                <ul>
+                    <li>Elected to Class Ambassador for Students Class in 2019 and 2020.</li>
+                    <li>Elected to lead most of the group projects.</li>
+                    <li>Awarded honor for the highest grade in the class.</li>
+                </ul>
             </div>
             <div>
                 <h3>Product Management</h3>

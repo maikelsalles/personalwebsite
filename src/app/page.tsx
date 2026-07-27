@@ -11,7 +11,6 @@ import Education from '@components/resume/education'
 import Stack from '@components/resume/stack'
 import AboutComponent from '@components/about/about'
 
-
 import Contact from './components/contact/page'
 import Portfolio from './portfolio/page'
 
@@ -28,7 +27,6 @@ export default function Home() {
         <p>
           <strong>Senior Product Designer | Design Systems | Product Strategy</strong><br/>
           I design clear, accessible, and scalable digital products that connect user needs, business goals, and technical feasibility through Human-Centered Design, Design Systems, and practical front-end collaboration.
-
         </p>
         <picture className={styles.frontPic}>
             <source srcSet={frontPage.src} />
