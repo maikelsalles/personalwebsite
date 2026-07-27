@@ -25,7 +25,7 @@ export default function ExperienceComponent() {
             </ul>
             <h3>Design System Strategist</h3>
             <small>
-                <span>DBC Consulting — Ticket Log / Edenred · Brazil</span>
+                <span>DBC Consulting — Ticket Log / Edenred — Fleet Management and Payments · Brazil</span>
                 <time>2022–2024</time>
             </small>
             <ul>
@@ -36,8 +36,8 @@ export default function ExperienceComponent() {
             </ul>
             <h3>Head of Product Design</h3>
             <small>
-                <span>DBC Consulting — Ticket Log / Edenred · Brazil</span>
-                <time>2021–2022</time>
+                <span>DBC Consulting — Ticket Log / Edenred — Fleet Management and Payments · Brazil</span>
+                <time>2021–2022</time> 
             </small>
             <ul>
                 <li>Proposed and helped establish a dedicated Product Design department and defined its operating model.</li>
@@ -47,7 +47,7 @@ export default function ExperienceComponent() {
             </ul>
             <h3>UI Developer and Accessibility Specialist</h3>
             <small>
-                <span>DBC Consulting — Ticket Log / Edenred · Brazil</span>
+                <span>DBC Consulting — Ticket Log / Edenred — Fleet Management and Payments · Brazil</span>
                 <time>2019–2021</time>
             </small>
             <ul>
@@ -58,7 +58,7 @@ export default function ExperienceComponent() {
             </ul>
             <h3>Lead Product Designer and Front-End Developer</h3>
             <small>
-                <span>Agenciou! · Brazil</span>
+                <span>Agenciou! - Real Estate Technology Startup · Brazil</span>
                 <time>2018–2019</time>
             </small>
             <ul>
@@ -69,7 +69,7 @@ export default function ExperienceComponent() {
             </ul>
             <h3>Multimedia Producer, Product Designer and Front-End Developer</h3>
             <small>
-                <span>Professional Multimedia Digital Agency · Brazil</span>
+                <span>Self-employed - Professional Multimedia Digital Agency · Brazil</span>
                 <time>2016–2017</time>
             </small>
             <ul>
@@ -77,17 +77,18 @@ export default function ExperienceComponent() {
             </ul>
             <h3>UX/UI Designer and Front-End Developer</h3>
             <small>
-                <span>Grupo Editorial Sinos · Brazil</span>
+                <span>Grupo Editorial Sinos - News Media Company · Brazil</span>
                 <time>2011–2016</time>
             </small>
             <ul>
-                <li>Became the main designer for the company’s digital products while continuing front-end implementation.</li>
-                <li>Led UX/UI work for the main news portal, media websites, promotional campaigns, and new digital brands.</li>
-                <li>Modernized products through accessibility, semantic HTML, responsive design, reusable components, stronger front-end standards, workshops, and team collaboration.</li>
+                <li>- Became the main designer for the company’s digital products while continuing Front-End implementation.</li>
+                <li>- Helped transform a small external website team into an internal digital product department.</li>
+                <li>- Led UX/UI work for the main news portal, media websites, promotional campaigns, and new digital brands.</li>
+                <li>- Modernized products through accessibility, semantic HTML, responsive design, reusable components, stronger Front-End standards, workshops, and team collaboration.</li>
             </ul>
             <h3>Graphic and Web Designer / Front-End Developer</h3>
             <small>
-                <span>Instituto Unialcance · Brazil</span>
+                <span>Instituto Unialcance - Educational Institution · Brazil</span>
                 <time>2010–2011</time>
             </small>
             <ul>

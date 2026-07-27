@@ -41,7 +41,7 @@ export default function AboutComponent() {
             Reduced design and development time through improved Design System collaboration and reusable patterns.
           </li>
           <li className={`${styles.card}`}>
-            <span><strong>~90%</strong> of WCAG issues addressed</span>
+            <span><strong>90%</strong> of WCAG issues addressed</span>
             Addressed approximately 90% of identified WCAG issues across a large enterprise platform.
           </li>
           <li className={`${styles.card}`}>
@@ -49,8 +49,8 @@ export default function AboutComponent() {
             Reduced development workload through an accessible, reusable component library.
           </li>
           <li className={`${styles.card}`}>
-            <span><strong>~50%</strong> faster qualified leads</span>
-            Reduced the time required to reach a qualified real-estate lead by approximately 50%.
+            <span><strong>50%</strong> faster qualified leads</span>
+            Reduced the time required to reach a qualified real-estate lead by 50%.
           </li>
         </ul>
       </section>

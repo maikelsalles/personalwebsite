@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Metadata } from 'next'
-import './globals.scss'
 import Button from '@/app/components/button'
 import styles from './home.module.scss'
 import globals from './globals.module.scss'
@@ -27,7 +26,7 @@ export default function Home() {
       <section className={`${styles.featuredSection} ${globals.wrapper}`}>
         <h1>Maikel Salles</h1>
         <p>
-          <strong>Senior Front-End Designer and Product Designer connecting Design, Product, and Engineering.</strong><br/>
+          <strong>Senior Product Designer | Design Systems | Product Strategy</strong><br/>
           I design clear, accessible, and scalable digital products that connect user needs, business goals, and technical feasibility through Human-Centered Design, Design Systems, and practical front-end collaboration.
 
         </p>
