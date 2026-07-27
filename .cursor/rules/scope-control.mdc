@@ -1,0 +1,30 @@
+---
+description: Scope discipline and out-of-scope handling
+alwaysApply: true
+---
+
+# Scope Control
+
+Follow `docs/development-workflow.md` and `docs/ai-collaboration-guide.md`.
+
+## Rules
+
+- Implement only what the current issue deliverables specify
+- Do not perform unrelated refactoring, redesign, or drive-by fixes
+- Do not bundle unrelated changes "while you're here"
+- Do not delete files or restructure the repository unless the issue requires it
+- Stop and ask for approval when requirements conflict or scope is ambiguous
+
+## Out-of-scope findings
+
+When additional work is discovered:
+
+1. Document the finding briefly
+2. Propose a future issue using `docs/templates/github-issue-template.md`
+3. Do **not** implement it automatically
+4. List deferred items in the delivery report
+
+## Content changes
+
+- Do not rewrite website content unless the issue explicitly includes it
+- Do not modify `docs/professional-profile.md` facts without resume verification and approval

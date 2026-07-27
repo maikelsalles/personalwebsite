@@ -1,0 +1,34 @@
+---
+description: Professional content rules for docs and website copy
+globs: docs/**/*.md,src/**/*.tsx
+alwaysApply: false
+---
+
+# Professional Content
+
+Follow `docs/professional-profile.md` for facts and `docs/personal-brand.md` for narrative and tone.
+
+## Facts
+
+- Use `docs/professional-profile.md` as the factual source
+- Do not invent employers, dates, titles, metrics, tools, certifications, or client details
+- Retain qualifiers such as "approximately" where the profile uses them
+- Separate responsibilities from verified outcomes
+
+## Tone and terminology
+
+- Clear, formal, natural English; short, direct sentences
+- Primary positioning: Senior Front-End Designer and Product Designer
+- Use verified company and role names from the profile
+- Avoid exaggerated superlatives and unsupported claims
+- Keep recruiter-facing content concise and easy to scan
+
+## Do not
+
+- Copy stale website content when it conflicts with the profile
+- Add regulatory, financial, or penalty claims unless verified in the resume
+- Use "volunteer" framing unless explicitly verified
+- Add proficiency percentages or skill bars without evidence
+- Position AI as the centre of the professional identity
+
+When website content conflicts with the profile, follow the profile and flag the discrepancy.

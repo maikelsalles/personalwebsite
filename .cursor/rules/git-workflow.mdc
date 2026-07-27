@@ -1,0 +1,41 @@
+---
+description: Branch, commit, and Pull Request conventions
+alwaysApply: true
+---
+
+# Git Workflow
+
+Follow `docs/development-workflow.md`.
+
+## Branch naming
+
+| Type | Pattern | Example |
+|------|---------|---------|
+| Feature | `feature/<issue-number>-<short-slug>` | `feature/57-configure-cursor-workspace` |
+| Fix | `fix/<issue-number>-<short-slug>` | `fix/62-contact-form-validation` |
+
+Use lowercase slugs with hyphens. Branch from `develop` unless the issue specifies otherwise.
+
+## Commit messages
+
+```
+#<issue-number> <concise description>
+```
+
+Example: `#57 Configure Cursor workspace`
+
+- Reference the issue number in every commit
+- One logical change per commit when practical
+- Do not commit secrets, credentials, or `.env` files
+
+## Pull Requests
+
+Every PR must:
+
+1. Reference the GitHub Issue (e.g., "Closes #57")
+2. Reference the parent issue when applicable (e.g., "Parent: #55 — Project Discovery")
+3. Include a summary and validation performed
+4. Confirm scope boundaries were respected
+5. List changed files when the change set is non-trivial
+
+Do not merge without human review and approval.

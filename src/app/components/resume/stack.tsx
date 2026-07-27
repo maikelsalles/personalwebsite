@@ -5,35 +5,62 @@ const stack = {
     title: "Stack",
     cats: [
         {
-            title: "Full-stack Designer",
+            title: "Design and Prototyping",
             items: [
-                { name: "Design System", range: 70 },
-                { name: "UI UX Design", range: 100 },
-                { name: "Product Design", range: 70 },
-                { name: "Customer Needs Assessment", range: 90 },
-                { name: "Design Thinking", range: 50 },
-                { name: "Figma", range: 50 },
-                { name: "Adobe Suite", range: 50 },
+                { name: "Figma" },
+                { name: "Product Design" },
+                { name: "UX/UI Design" },
+                { name: "Human-Centered Design" },
+                { name: "Wireframing and Prototyping" },
+                { name: "Responsive Product Design" },
             ]
         },
         {
-            title: "Front-end Developer",
+            title: "Product and Delivery",
             items: [
-                { name: "Html 5", range: 100 },
-                { name: "CSS3", range: 100 },
-                { name: "JavaScript", range: 80 },
-                { name: "TypeScript", range: 70 },
-                { name: "Angular", range: 70 },
-                { name: "React", range: 60 },
-                { name: "NextJs", range: 60 },
-                { name: "VueJs", range: 50 },
-                { name: "WordPress", range: 90 },
-                { name: "W3C, WCAG Standards", range: 100 },
-                { name: "GIT", range: 80 },
-                { name: "Azure DevOps", range: 50 },
-                { name: "API Integration", range: 60 },
+                { name: "Jira" },
+                { name: "Azure DevOps" },
+                { name: "Agile Delivery" },
+                { name: "User Stories and Acceptance Criteria" },
+                { name: "Design-to-Development Handoff" },
             ]
-        }        
+        },
+        {
+            title: "Analytics and Testing",
+            items: [
+                { name: "Google Analytics" },
+                { name: "Hotjar" },
+                { name: "Usability Testing" },
+            ]
+        },
+        {
+            title: "Design Systems",
+            items: [
+                { name: "Design Tokens" },
+                { name: "Reusable Component Libraries" },
+                { name: "Storybook Collaboration" },
+                { name: "Angular Collaboration" },
+                { name: "React Native Collaboration" },
+            ]
+        },
+        {
+            title: "Front-End",
+            items: [
+                { name: "HTML" },
+                { name: "CSS" },
+                { name: "JavaScript" },
+                { name: "Vue.js" },
+                { name: "Semantic Front-End Development" },
+            ]
+        },
+        {
+            title: "Standards",
+            items: [
+                { name: "WCAG" },
+                { name: "W3C-based Component Development" },
+                { name: "Semantic HTML" },
+            ]
+        }
     ]
 };
 

@@ -4,50 +4,96 @@ import styles from "./resume.module.scss"
 export default function ExperienceComponent() {
     return (
         <section className={styles.experienceItem} id="experience">
-            <h3>Design System Engineer</h3>
+            <h3>Product Design and Design Systems Consultant</h3>
             <small>
-                <span>DBC Company - Consulting for Edenred - Porto Alegre/RS</span>
-                <time>July 2022 - November 2024</time>
+                <span>Freelance · Remote</span>
+                <time>2024–Present</time>
             </small>
             <ul>
-                <li>Ahead of Design System project, lead the development in Figma and Angular Library of components, defining standards, guidelines and documentation within IT Engineers and Design department.</li>
-                <li>Colaborated reducing costs and time by 30% both IT and Design departments and enhanced overall quality of digital products as design by introducing a Design System initiative.</li>
-                <li>Served as a bridged between Design and Development allways fostering accessibility and best practices.</li>
-                <li>Led the efforts to uphold legacy designs by analyzing new brand standards alongside existing legacy code, ensuring seamless integration and consistency across platforms.</li>
+                <li>Support designers and businesses with Product Design, UX/UI Design, Design Systems, accessibility, and workflow improvements.</li>
+                <li>Translate research, user needs, and business requirements into user flows, wireframes, prototypes, user stories, acceptance criteria, and implementation guidance.</li>
+                <li>Support collaboration across Design, Product, and Engineering through Figma, responsive design, reusable components, accessibility reviews, front-end implementation, and structured documentation.</li>
+            </ul>
+            <h3>Product Designer — Selected Freelance Project</h3>
+            <small>
+                <span>Sanmyaku Entertainment · Medical Management Platform · Calgary, Alberta / Remote</span>
+                <time>November 2023–January 2024</time>
+            </small>
+            <ul>
+                <li>Led interaction design for a medical management platform, translating feature needs and data analysis into user flows, prototypes, and design specifications.</li>
+                <li>Collaborated with international teams, presented design rationale, coordinated usability testing, and refined solutions based on feedback and findings.</li>
+            </ul>
+            <h3>Design System Strategist</h3>
+            <small>
+                <span>DBC Consulting — Ticket Log / Edenred — Fleet Management and Payments · Brazil</span>
+                <time>2022–2024</time>
+            </small>
+            <ul>
+                <li>Led Design System strategy and execution for Angular web products and a React Native mobile application.</li>
+                <li>Created Figma libraries, design tokens, reusable components, accessibility standards, semantic specifications, documentation, and responsive guidelines.</li>
+                <li>Partnered with Product and Engineering to simplify complex payment and fleet-management workflows and improve collaboration between Figma and Angular libraries.</li>
+                <li>Reduced design and development time by 30% through improved Design System collaboration and reusable patterns.</li>
             </ul>
             <h3>Product Design</h3>
             <small>
-                <span>DBC Company - Consulting for Edenred - Porto Alegre/RS</span>
-                <time>October 2021 - July 2022</time>
+                <span>DBC Consulting — Ticket Log / Edenred — Fleet Management and Payments · Brazil</span>
+                <time>2021–2022</time> 
             </small>
             <ul>
-                <li>Provided technical guidance for the team with workshops, fostering positivity and a collaborative environment.</li>
-                <li>Tailored design processes for multiple projects and deadlines, optimizing the ability to conduct assertive user needs assessments, empowering our team to excel in their performance in a fast-paced environment.</li>
-                <li>Assisted actively in the development of personas, user stories, prototypes, customer journeys and tests.</li>
-                <li>Incorporated accessibility principles into task and requirement documentation between IT department and Design deliveries, ensuring clarity for all teams and minimizing rework and misunderstandings, working collaboratively with Product Owners and Product Managers.</li>
-                <li>Created an automated test implementation process, ensuring adherence to deadlines and delivery timelines.</li>
+                <li>Proposed and helped establish a dedicated Product Design department and defined its operating model.</li>
+                <li>Supported team growth from 3 to approximately 12 people, including 10 Product Designers and 2 UX Writers, through hiring, onboarding, mentoring, career development, and workload planning.</li>
+                <li>Partnered with Product and Engineering through discovery, workshops, design reviews, sprint planning, release planning, and delivery checkpoints.</li>
+                <li>Presented design solutions, usability findings, and simplified payment workflows to IT leaders and C-level stakeholders.</li>
             </ul>
-            <h3>UI Developer - Accessibility Specialist</h3>
+            <h3>UI Developer and Accessibility Specialist</h3>
             <small>
-                <span>DBC Company - Consulting for Edenred - Porto Alegre/RS</span>
-                <time>May 2019 - October 2021</time>
+                <span>DBC Consulting — Ticket Log / Edenred — Fleet Management and Payments · Brazil</span>
+                <time>2019–2021</time>
             </small>
             <ul>
-                <li>Implemented WCAG guidelines to improve accessibility on the Sou Log Platform, resulting in a remarkable 90% enhancement. This initiative prevented the company from incurring a significant regulatory fee of 3M.</li>
-                <li>Created accessible and W3C Standard library of components to save time by 60% on front-end development.</li>
-                <li>Developed high-performance, pixel-perfect features in the Angular framework and contributed proactively for an agile environment within multidisciplinary teams.</li>
-                <li>Achieved proficiency in NGXS/NgRx for data and state, RxJS for reactive programming, and modern styling tools like SASS/SCSS, Flexbox, Animations, continuous integration, and automated testing tools.</li>
-                <li>Worked with the latest technologies for optimal quality and standards, on a B2B platform within the financial sector.</li>
+                <li>Led accessibility remediation across a large enterprise platform and designed accessible interfaces.</li>
+                <li>Built a reusable W3C-based component library for account status, credit limits, and fleet operations.</li>
+                <li>Improved semantic HTML, keyboard access, screen-reader support, and responsive design.</li>
+                <li>Addressed approximately 90% of identified WCAG issues and reduced development workload by 60%.</li>
             </ul>
-            <h3>Product Designer & UI Developer</h3>
+            <h3>Lead Product Designer and Front-End Developer</h3>
             <small>
-                <span>Agenciou! StartUp - Porto Alegre/RS</span>
-                <time>October 2018 - April 2019</time>
+                <span>Agenciou! - Real Estate Technology Startup · Brazil</span>
+                <time>2018–2019</time>
             </small>
             <ul>
-                <li>Enhanced the user experience on Real State Agency by crafting intuitive web and mobile screens, resulting in a notable 50% reduction in customer inquiries and interactions. Achieved through the meticulous application of design thinking and agile methodologies.</li>
-                <li>Established foundational elements including style guides, page templates, icon sets, and a custom CSS framework.</li>
-                <li>Developed Institutional website, web platform and Dashboards on Vue.js framework, ensuring seamless implementation of design concepts and accessibility.</li>
+                <li>Led UX/UI design and front-end delivery for responsive web and mobile property experiences in an early-stage real estate technology startup.</li>
+                <li>Created information architecture, user flows, wireframes, prototypes, high-fidelity interfaces, responsive layouts, and reusable UI patterns.</li>
+                <li>Implemented products using Vue.js, HTML, CSS, and JavaScript.</li>
+                <li>Reduced customer follow-up and the time required to reach a qualified lead by approximately 50%.</li>
+            </ul>
+            <h3>Multimedia Producer, Product Designer and Front-End Developer</h3>
+            <small>
+                <span>Self-employed - Professional Multimedia Digital Agency · Brazil</span>
+                <time>2016–2017</time>
+            </small>
+            <ul>
+                <li>Worked across digital design, front-end, and multimedia projects, with additional experience in audiovisual and music production.</li>
+            </ul>
+            <h3>UX/UI Designer and Front-End Developer</h3>
+            <small>
+                <span>Grupo Editorial Sinos - News Media Company · Brazil</span>
+                <time>2011–2016</time>
+            </small>
+            <ul>
+                <li>- Became the main designer for the company’s digital products while continuing Front-End implementation.</li>
+                <li>- Helped transform a small external website team into an internal digital product department.</li>
+                <li>- Led UX/UI work for the main news portal, media websites, promotional campaigns, and new digital brands.</li>
+                <li>- Modernized products through accessibility, semantic HTML, responsive design, reusable components, stronger Front-End standards, workshops, and team collaboration.</li>
+            </ul>
+            <h3>Graphic and Web Designer / Front-End Developer</h3>
+            <small>
+                <span>Instituto Unialcance - Educational Institution · Brazil</span>
+                <time>2010–2011</time>
+            </small>
+            <ul>
+                <li>Worked with franchise clients to understand local audiences, business goals, and communication needs.</li>
+                <li>Designed digital experiences, supported front-end delivery, and maintained brand consistency.</li>
             </ul>
         </section>
     )

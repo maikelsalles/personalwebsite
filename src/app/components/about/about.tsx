@@ -23,13 +23,13 @@ export default function AboutComponent() {
         <div className={`${styles.textContent} ${styles.imageContainer}`}>
           <h2>About me</h2>
           <p>
-            I am a Product Designer and Design Systems Specialist based in Calgary, with over 13 years of experience across Product Design, Accessibility, Front-End Development, and Product Leadership.
+            I am a Senior Front-End Designer and Product Designer based in Calgary, Alberta, Canada, with 15+ years of experience creating responsive web and mobile products across enterprise software, payments, fleet management, healthcare, media, and startup environments.
           </p>
           <p>
-            My work sits at the intersection of Design, Product, and Engineering. I help teams translate complex business needs into clear user flows, accessible interfaces, reusable components, and implementation-ready documentation.
+            My work sits at the intersection of Design, Product, and Engineering. I translate research, analytics, user needs, and business requirements into user flows, prototypes, high-fidelity interfaces, Design Systems, and production-ready specifications.
           </p>
           <p>
-            Before moving to Canada, I built my career in Brazil’s fast-paced technology market, working with enterprise software, financial products, design systems, and cross-functional teams. Today, I am focused on refining my skills for the North American market, with a strong focus on scalable product design, accessibility, and modern design-engineering collaboration.
+            I use Human-Centered Design, accessibility, reusable component libraries, and front-end collaboration to reduce complexity, support consistent implementation, and create measurable value for users and organizations.
           </p>
         </div>
       </article>
@@ -38,19 +38,19 @@ export default function AboutComponent() {
         <ul className={`${styles.cards}`}>
           <li className={`${styles.card}`}>
             <span><strong>30%</strong> faster delivery</span>
-            Reduced design and development time through a scalable Design System.
+            Reduced design and development time through improved Design System collaboration and reusable patterns.
           </li>
           <li className={`${styles.card}`}>
-            <span><strong>90%</strong> accessibility improvement</span>
-            Improved WCAG compliance across an enterprise platform.
+            <span><strong>90%</strong> of WCAG issues addressed</span>
+            Addressed approximately 90% of identified WCAG issues across a large enterprise platform.
           </li>
           <li className={`${styles.card}`}>
-            <span><strong>60%</strong> front-end time reduction</span>
-            Created a W3C-standard component library for reusable UI implementation.
+            <span><strong>60%</strong> less development workload</span>
+            Reduced development workload through an accessible, reusable component library.
           </li>
           <li className={`${styles.card}`}>
-            <span><strong>50%</strong> fewer customer inquiries</span>
-            Improved UX and interface clarity for a real estate digital product.
+            <span><strong>50%</strong> faster qualified leads</span>
+            Reduced the time required to reach a qualified real-estate lead by 50%.
           </li>
         </ul>
       </section>
