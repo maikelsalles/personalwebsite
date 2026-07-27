@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Metadata } from 'next'
-import './globals.scss'
 import Button from '@/app/components/button'
 import styles from './home.module.scss'
 import globals from './globals.module.scss'
@@ -17,8 +16,8 @@ import Contact from './components/contact/page'
 import Portfolio from './portfolio/page'
 
 export const metadata: Metadata = {
-  title: 'Maikel Salles - UX UI Designer | UI Developer | Accessibility Specialist',
-  description: 'Hello world! This is my personal website',
+  title: 'Maikel Salles - Senior Front-End Designer and Product Designer',
+  description: 'Senior Front-End Designer and Product Designer with 15+ years of experience creating clear, accessible, and scalable digital products.',
 }
 
 export default function Home() {
@@ -27,8 +26,8 @@ export default function Home() {
       <section className={`${styles.featuredSection} ${globals.wrapper}`}>
         <h1>Maikel Salles</h1>
         <p>
-          <strong>Product Designer & Design Systems Specialist bridging Design, Product, and Engineering.</strong><br/>
-          I help teams turn complex product requirements into clear, accessible, and scalable digital experiences through UX strategy, component-based design, front-end collaboration, and practical documentation.
+          <strong>Senior Product Designer | Design Systems | Product Strategy</strong><br/>
+          I design clear, accessible, and scalable digital products that connect user needs, business goals, and technical feasibility through Human-Centered Design, Design Systems, and practical front-end collaboration.
 
         </p>
         <picture className={styles.frontPic}>

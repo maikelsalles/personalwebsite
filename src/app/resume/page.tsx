@@ -7,7 +7,7 @@ import Stack from "@components/resume/stack"
 
 export const metadata: Metadata = {
     title: "Resume - Maikel Salles",
-    description: "Read about my archivements over 10 years of experience."
+    description: "Senior Front-End Designer and Product Designer with 15+ years of experience in Product Design, Design Systems, accessibility, and front-end implementation."
 }
 
 export default function Resume() {
