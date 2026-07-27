@@ -19,13 +19,13 @@ export default function Portfolio() {
             <div className={`${globals.stickyIt} ${styles.whiteTxt}`}>
                 <h2>Portfolio</h2>
                 <p>
-                Explore my latest projects, where design meets functionality. From crafting intuitive Design Systems to delivering impactful UI, UX, and Product Design solutions, these works highlight my passion for innovation and user-centered design.
+                Explore selected work across Product Design, Design Systems, accessibility, and front-end collaboration. Each project reflects a practical approach to connecting user needs, business goals, and technical feasibility.
                 </p>
             </div>
             <div className={styles.portfolioList}>
                 <div className={styles.portfolioItem}>
                 <a href={`${process.env.NEXT_PUBLIC_SITE_URL}/portfolio/design-system-engineer`}>
-                    <h3>Design System Engineer</h3>
+                    <h3>Design System Strategist</h3>
                     <picture>
                     <source srcSet={img1.src} />
                     <Image
