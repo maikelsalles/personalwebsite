@@ -64,6 +64,10 @@
   h1 {
     padding-top: 0;
   }
+  p {
+    max-width: 1200px;
+    padding-bottom: 1rem;
+  }
   .caseContainer {
     text-align: left;
     h2 {
@@ -94,6 +98,28 @@
         &:before {
             color: var(--warning);
         }
+      }
+    }
+  }
+  .longFormCaseStudy {
+    h2 {
+      margin: 3rem 0 1rem;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    h3 {
+      margin: 2rem 0 1rem;
+    }
+    ul,
+    ol {
+      margin: 0 0 2rem;
+      padding-left: 1.5rem;
+    }
+    li{
+      list-style: disc;
+      &:not(:first-child) {
+        margin-top: .5rem;
       }
     }
   }
