@@ -55,10 +55,30 @@
 
 .resumeContainer {
   padding-top: var(--header-height-sm);
-  .breadcrumbs {
+  .titleContainer {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--foreground-alpha-10);
+    padding: 3rem 0;
+  }
+  .eyebrow {
     color: var(--primary-regular);
-    &:after {
-      content: " /"
+    font-weight: bold;
+    padding-bottom: .5rem;
+  }
+  .caseDetails {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0 0;
+    max-width: 1200px;
+    div {
+      display: grid;
+      gap: .25rem;
+    }
+    dt {
+      font-weight: bold;
+    }
+    dd {
+      margin: 0;
     }
   }
   h1 {
@@ -70,6 +90,9 @@
   }
   .caseContainer {
     text-align: left;
+    & + .caseContainer {
+      margin-top: 2rem;
+    }
     h2 {
       margin-bottom: 1rem;
     }
@@ -78,9 +101,11 @@
       height: auto;
     }
     picture {
-      margin-bottom: 2rem;
       width: 100%;
       display: flex;
+    }
+    figure {
+      margin: 0 0 2rem;
     }
     h3 {
       margin-bottom: 1rem;
@@ -103,7 +128,7 @@
   }
   .longFormCaseStudy {
     h2 {
-      margin: 3rem 0 1rem;
+      margin: 3rem 0 0;
       &:first-child {
         margin-top: 0;
       }
@@ -116,11 +141,16 @@
       margin: 0 0 2rem;
       padding-left: 1.5rem;
     }
-    li{
-      list-style: disc;
+    li {
       &:not(:first-child) {
         margin-top: .5rem;
       }
+    }
+    ul li {
+      list-style: disc;
+    }
+    ol li {
+      list-style: decimal;
     }
   }
   .titleSection {
@@ -129,9 +159,29 @@
     flex-direction: column;
     padding: 0 0 2rem 0;
   }
+  .sectionAction {
+    margin-bottom: 2rem;
+  }
+  .caseFooter {
+    margin-top: 2rem;
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  }
 }
 @include for-tablet-landscape-up {
   .resumeContainer {
     padding-top: var(--header-height-lg);
+    .caseDetails {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .caseFooter nav {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
