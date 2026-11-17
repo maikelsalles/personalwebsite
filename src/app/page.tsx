@@ -28,15 +28,6 @@ export default function Home() {
           <strong>Senior Product Designer | Design Systems | Product Strategy</strong><br/>
           I design clear, accessible, and scalable digital products that connect user needs, business goals, and technical feasibility through Human-Centered Design, Design Systems, and practical front-end collaboration.
         </p>
-        <picture className={styles.frontPic}>
-            <source srcSet={frontPage.src} />
-            <Image
-              src={frontPage}
-              alt="This is my photograph. I have a bald head, green eyes, and Caucasian ethnicity. I'm wearing a dark purple shirt paired with a navy blue blazer. I`m with a calm expression."
-              width={503}
-              height={539}
-            />
-          </picture>
       </section>
       <Portfolio />
       <section id="about">
