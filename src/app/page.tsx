@@ -31,15 +31,6 @@ export default function Home() {
           Harmonizing design and code for elegant and inclusive experiences,
           where user needs are the cornerstone.
         </p>
-        <picture className={styles.frontPic}>
-            <source srcSet={frontPage.src} />
-            <Image
-              src={frontPage}
-              alt="This is my photograph. I have a bald head, green eyes, and Caucasian ethnicity. I'm wearing a dark purple shirt paired with a navy blue blazer. I`m with a calm expression."
-              width={503}
-              height={539}
-            />
-          </picture>
       </section>
       <Portfolio />
       <section id="about">

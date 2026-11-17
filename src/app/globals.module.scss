@@ -115,12 +115,12 @@
     position: -webkit-sticky;
     position: sticky;
     align-self: self-start;
-    top: 4rem;
+    top: 6rem;
   }
   .twoCollumns,
   .twoCollumnsReverse {
     display: grid;
-    gap: 4rem;
+    gap: 6rem;
   }
 }
 @include for-tablet-landscape-up {
